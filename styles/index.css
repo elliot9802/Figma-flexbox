@@ -1,0 +1,95 @@
+.squares-background {
+    background-color: #370617;
+    display:flex;
+    height: 100vh;
+    padding: 20px;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+    .squares-container1, .squares-container2, .squares-container3,
+    .squares-container4, .squares-container5, .squares-container6 {
+        background-color: #139d9b;
+        margin: 20px;
+        height: 160px;
+        width:468px;
+        border-radius: 8px;
+        display:flex;
+    }
+        .small-squares  {
+            background-color: #817677;
+            min-width: 50px;
+            min-height: 50px;
+            border-radius: 4px;
+            margin:15px;
+            padding: 20px;
+        }
+    .squares-container1 {
+        justify-content: flex-start;
+        align-items:flex-end;
+    }
+    .squares-container2 {
+        justify-content: center;
+        align-items: stretch;
+    }
+    .squares-container3 {
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .squares-container4 {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .squares-container5 {
+        justify-content: space-evenly;
+        text-align: center;
+        vertical-align: middle;
+        color: #ffffff;
+    }
+    .squares-container6 {
+        justify-content: center;
+        align-items: center;
+    }
+.circles-background {
+    background-color: #202661;
+    display:flex;
+    height: 100vh;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+    .circles-container1, .circles-container3, .circles-container5, .circles-container2, .circles-container4 {
+        background-color: #4b1a1a;
+        margin: 20px;
+        height: 220px;
+        width:273px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .circles-container2, .circles-container4 {
+        background-color: #477ada;
+    }
+        .small-circles {
+            background-color: #fa0000;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+    .circles-container2 {
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+    }
+    .circles-container3 {
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .circles-container4 {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .circles-container5 {
+        justify-content: center;
+        align-items: center;
+    }
